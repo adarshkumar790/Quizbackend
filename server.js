@@ -13,7 +13,7 @@ const app = express();
 
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://quizapp-teal-zeta.vercel.app/'
 }));
 
 app.use(express.json());
